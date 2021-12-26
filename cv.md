@@ -3,12 +3,12 @@
 ![photo](/images/photo1.jpg)
 
 ## _**CONTACTS**_
-> Location: Belarus, Minsk
-> Phone Number: +375336226606
-> email: bogin.a.v@gmail.com
-> GitHub: boginav
-> Discord: Bogin Aleksandr
-> Skype: Александр Богинь
+* Location: Belarus, Minsk
+* Phone Number: +375336226606
+* email: bogin.a.v@gmail.com
+* GitHub: boginav
+* Discord: Bogin Aleksandr
+* Skype: Александр Богинь
 
 ## _**EDUCATION**_
 * 2007-2011, BSUIR Minsk (BELARUSIAN STATE UNIVERSITY OF INFORMATICS AND RADIOELECTRONICS)
@@ -28,12 +28,12 @@ English (Pre-Intermediate)
  > My name is Aleksandr. I am 33 years old. I have been living in Minsk for over 10 years.I work at beltelecom as an engineer- programmer. My work is related with payment systems. I am studying programming. My goal is to become good specialist and full stack developer.
 
 ## _**SKILLS**_
-> HTML
-> CSS
-> GIT
-> Java
-> Spring
-> Maven
+* HTML
+* CSS
+* GIT
+* Java
+* Spring
+* Maven
 
 
 ## _**JAVA CODE**_ 
