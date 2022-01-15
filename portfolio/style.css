@@ -1,0 +1,52 @@
+@import url(index.js);
+
+:root {
+    --gold-color: #BDAE82;
+    --dark-color: #000000;
+    --white-color:  #FFFFFF;
+  }
+
+
+body {
+    margin: 0 auto;
+    max-width: 1440px;
+    background: var(--dark-color);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+  
+}
+
+h1, h2, h3{
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background: #2c2626;
+}
+
+.hero-img{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/img/header-bg.jpg");
+}
+
+/* path{
+    fill:inherit;
+    stroke:inherit;
+  } */
+
+
+  /* .logo:hover  svg{    
+    fill: var(--gold-color) ;        
+  }
+
+  
+  .img-svg path{
+      fill: turquoise;
+  } */
+
+ 
+
+  
