@@ -6,6 +6,9 @@
     --white-color:  #FFFFFF;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
 
 body {
     margin: 0 auto;
@@ -81,6 +84,7 @@ nav a:hover{
   color: var(--gold-color);
   transition: 0.3s;
 }
+
 
 nav ul{
   display: table;
@@ -390,5 +394,119 @@ label{
 .price-list > div > button{
   margin: 15px 115px;
 }
+
+
+.contacts{
+  margin-top: 100px;
+}
+
+.contacts h2{ 
+  color: var(--gold-color);
+  background: none;
+  height: 80px;
+  width: 450px;
+  text-align: left;
+}
+
+.contacts .container { 
+  position: relative;
+  height: 700px;
+  background: url("assets/img/contacts.jpg");
+  background-size: auto 700px;
+  background-position: center center;
+}
+
+
+
+.contacts-info{
+  position: absolute;
+  margin-top: 60px;
+  right: 20px;
+
+}
+
+.contacts-info *::placeholder{
+  font-family: inherit;
+  color: #bdae82;
+  font-size: 20px;
+}
+
+#email{
+  display: block;
+  margin: 40px 0 20px 0;
+  height: 50px;
+  width: 450px;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  color: var(--gold-color);
+  border: var(--gold-color) solid 3px;
+  background: transparent;
+}
+
+#tel{
+  display: block;
+  margin:  0 0 20px 0;
+  height: 50px;
+  width: 450px;
+  color: var(--gold-color);
+  border: var(--gold-color) solid 3px;
+  background: transparent;
+}
+
+#text{
+  margin:  0 0 30px 0;
+  height: 100px;
+  width: 450px;
+  color: var(--gold-color);
+  border: var(--gold-color) solid 3px;
+  background: transparent;
+  resize: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-text-fill-color: #bdae82;
+  transition: background-color 0s ease-in-out 9000s;
+}
+
+footer{
+  margin: 50px 0;
+  height: 150px;
+  color: var(--white-color);
+}
+
+footer a {
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+footer a:hover{
+  color: var(--gold-color);
+  transition: 0.3s;
+}
+
+footer img:hover{
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+    transition: 0.3s;
+}
+
+
+footer .container{
+  top: 50px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+footer li{
+  display: inline-block;
+}
+
+
+
+
 
   

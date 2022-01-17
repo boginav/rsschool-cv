@@ -219,10 +219,22 @@
 
 
             <section class="contacts" id="contacts">
-                <div class="wrapper-h2">
+                <!-- <div class="wrapper-h2">
                     <h2 class="section-title">Contacts</h2>
-                    <div>
-                      <span>Professional sounds recording for video, advertising, portfolio</span>
+                </div> -->
+                <div class="container">
+                    <div class="contacts-info">
+                        <h2 class="section-title">Contact me</h2>
+                        <form action="contact-form" id="contact-form">
+                            <input type="email" id="email" class="cont-email" placeholder=" E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" size="30" required>
+                            <input type="tel" id="tel" class="cont-tel" placeholder=" Phone **-***-**-**" pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}" size="30" required>
+                            <textarea name="cont-text" id="text" class="cont-text" placeholder=" Message" ></textarea>
+                            
+                        </form>
+                        <div>
+                             <button type="submit" form="contact-form">Send message</button>
+                         </div>
+                        
                     </div>
                 </div>
             </section>
@@ -233,7 +245,30 @@
     <!-- footer -->
    <footer>
         <div class="container">
-1
+            <div>
+                <span>&#169;<span>&nbsp;</span>2022</span>
+                <a href="https://github.com/boginav">github</a>
+            </div>
+
+            <div>
+               <a href="https://rs.school/js-stage0/">Rolling Scopes School</a>
+            </div>
+            <div class="link-soc">
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com/"><img src="assets/svg/inst1.svg" alt="inst"></a>  
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/"><img src="assets/svg/fb1.svg" alt="facebook"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/"><img src="assets/svg/tw1.svg" alt="tw"></a>
+                    </li>
+                    <li>
+                        <a href=""></a><img src="assets/svg/pinterest1.svg" alt="pinterest">
+                    </li>
+                </ul>
+            </div>
         </div>
 
    </footer> 
